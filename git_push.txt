@@ -1,0 +1,12 @@
+1. initialize git
+        git init
+2. additioin of files to git
+        git add . (. = Allfiles)
+3. Save the process 
+        git commit -m "messg_name" 
+4. select branch
+        git branch -M "branch_name"  
+5. setting upload point connection to git repository
+        git remote add origin https://github.com/saitejakanumuri/temp_node_tutorial.git
+6. git push branch to the upload point (origin) requeset
+        git push -u origin main
